@@ -1,31 +1,20 @@
-Taskify 
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-# college-student-task-manager
+# Run and deploy your AI Studio app
 
-its a task management web application that helps college students organize academic work, implementing task tracking and deadline management using JavaScript and local storage titled Taskify
+This contains everything you need to run your app locally.
 
+View your app in AI Studio: https://ai.studio/apps/5699061d-bf82-4732-b157-dac6cd36b3b7
 
-# how to view application: 
-click link: https://ais-pre-a3p4nw5xqmztqbo2bggaur-594282449633.europe-west2.run.app/?skip_landing=true
+## Run Locally
 
-# features 
-
--adds tasks
--deletes tasks
--adds courses
--tracks courses 
--allows students to track deadlines of tasks
-
-# technologies
-
--HTML
-
--JAVASCRIPT
-
--CSS
-
--FIREBASE
+**Prerequisites:**  Node.js
 
 
-# author
-NOKUTENDA CHIPONDA
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
